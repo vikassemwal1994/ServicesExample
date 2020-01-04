@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_forground_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Foreground Service"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_FreeFallService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Free Fall Service"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_MyJobIntentServiceActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="My Job Intent Service Activity"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_JobServiceActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Local Service Bind"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
